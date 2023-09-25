@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="APIKey" xml:space="preserve">
+    <value>API 密钥</value>
+  </data>
+  <data name="APIRequestPaused" xml:space="preserve">
+    <value>程序已暂停所有API请求。
+请打开ErrorLog.log查看详细信息。
+要恢复，请重启程序。</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="BannedFromDerpibooru" xml:space="preserve">
+    <value>Derpibooru已禁止你使用此API。
+你的账号或IP地址可能已被封禁。
+服务器返回HTTP状态码：{0} {1}
+程序现在会暂停所有API请求，直到程序重启</value>
+  </data>
+  <data name="CannotVerifyAPIKey" xml:space="preserve">
+    <value>无法验证API密钥</value>
+  </data>
+  <data name="ChangeWallpaper" xml:space="preserve">
+    <value>更换壁纸</value>
+  </data>
+  <data name="CloseWithoutSavingWarning" xml:space="preserve">
+    <value>是否放弃更改并关闭窗口？</value>
+  </data>
+  <data name="ConnectionSettings" xml:space="preserve">
+    <value>连接设置</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>按天数</value>
+  </data>
+  <data name="DerpibooruWallpaperSettings" xml:space="preserve">
+    <value>Derpibooru壁纸 设置</value>
+  </data>
+  <data name="EmptyAPIKey" xml:space="preserve">
+    <value>空的API密钥</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>错误信息</value>
+  </data>
+  <data name="ErrorVerifyingAPIKey" xml:space="preserve">
+    <value>验证API密钥时出现错误</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="FailedToOpenRegistryKeyForLaunchOnStartup" xml:space="preserve">
+    <value>打开注册表失败，无法设置开机启动</value>
+  </data>
+  <data name="FailedToVerifyAPIKey" xml:space="preserve">
+    <value>API密钥验证失败</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>按小时数</value>
+  </data>
+  <data name="LaunchOnSystemStartup" xml:space="preserve">
+    <value>开机启动</value>
+  </data>
+  <data name="MadeBy" xml:space="preserve">
+    <value>作者 wd357dui
+本程序为个人制作，与Derpibooru网站开发者、管理员无关
+2023年3月</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>按分钟数</value>
+  </data>
+  <data name="NoImagesFoundWithCurrentSearchParameters" xml:space="preserve">
+    <value>按当前搜索参数没有搜到图片</value>
+  </data>
+  <data name="NotSafeToCloseYet" xml:space="preserve">
+    <value>后台进程运行中，现在还不能关闭窗口</value>
+  </data>
+  <data name="NotValidAPIKey" xml:space="preserve">
+    <value>这不是一个有效的API密钥</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="OpenImageFolder" xml:space="preserve">
+    <value>打开图片文件夹</value>
+  </data>
+  <data name="OverrideExistingImageFiles" xml:space="preserve">
+    <value>覆盖已保存的图片文件</value>
+  </data>
+  <data name="PressToSaveKeyAnyway" xml:space="preserve">
+    <value>按{0}仍然保存</value>
+  </data>
+  <data name="PressToUseKeyAnyway" xml:space="preserve">
+    <value>按{0}键仍然使用此API密钥</value>
+  </data>
+  <data name="ProgramSettings" xml:space="preserve">
+    <value>程序设置</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SearchParameters" xml:space="preserve">
+    <value>搜索参数</value>
+  </data>
+  <data name="SelectUnitOfTimeFirst" xml:space="preserve">
+    <value>请先选择时间单位（天数/小时数/分钟数）</value>
+  </data>
+  <data name="ServerDidNotProvideFullLink" xml:space="preserve">
+    <value>服务器没有提供图片 #{0} 的下载地址</value>
+  </data>
+  <data name="ServerResponseCode" xml:space="preserve">
+    <value>服务器返回HTTP状态码：{0} {1}</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SpecifyYourAPIKey" xml:space="preserve">
+    <value>使用前请先设置API密钥</value>
+  </data>
+  <data name="TooManyRequests" xml:space="preserve">
+    <value>Derpibooru 想请你喝杯咖啡休息一下……
+（你刷新的太快了）
+服务器返回HTTP状态码：{0} {1}</value>
+  </data>
+  <data name="Unrecognized400" xml:space="preserve">
+    <value>服务器返回了一个我意料之外的状态码，但我知道错误是出在客户端 ({0} {1})
+程序现在会暂停所有API请求，直到程序重启</value>
+  </data>
+  <data name="Unrecognized500" xml:space="preserve">
+    <value>服务器返回了一个我意料之外的状态码，但我知道错误是出在服务器上 ({0} {1})</value>
+  </data>
+  <data name="UnrecognizedStatusCode" xml:space="preserve">
+    <value>服务器返回了一个我意料之外的状态码 ({0} {1})</value>
+  </data>
+  <data name="UnsavedAPIKey" xml:space="preserve">
+    <value>你还没有保存API密钥</value>
+  </data>
+  <data name="UnsavedSearchParams" xml:space="preserve">
+    <value>你还没有保存搜索参数</value>
+  </data>
+  <data name="UnsavedWallpaperChangeInterval" xml:space="preserve">
+    <value>你还没有保存壁纸更换间隔</value>
+  </data>
+  <data name="UseHTTPS" xml:space="preserve">
+    <value>使用HTTPS</value>
+  </data>
+  <data name="UseSystemProxy" xml:space="preserve">
+    <value>使用系统代理</value>
+  </data>
+  <data name="UseTrixiebooruMirror" xml:space="preserve">
+    <value>使用Trixiebooru镜像</value>
+  </data>
+  <data name="Wait" xml:space="preserve">
+    <value>请等待</value>
+  </data>
+  <data name="WallpaperChangeInterval" xml:space="preserve">
+    <value>壁纸更换间隔</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="WhereToCheckYourAPIKey" xml:space="preserve">
+    <value>请登录derpibooru.org打开你的账号页面查看API密钥</value>
+  </data>
+  <data name="YourConnectionIsFineButDerpibooru503" xml:space="preserve">
+    <value>你的网络连接正常，但是Derpibooru服务器目前不可用（503）</value>
+  </data>
+</root>

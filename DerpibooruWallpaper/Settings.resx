@@ -1,0 +1,703 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="APIKeyTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="APIKeyTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="APIKeyTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="APIKeyTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="APIKeyTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;APIKeyTextBox.Name" xml:space="preserve">
+    <value>APIKeyTextBox</value>
+  </data>
+  <data name="&gt;&gt;APIKeyTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;APIKeyTextBox.Parent" xml:space="preserve">
+    <value>APIKeyGroupBox</value>
+  </data>
+  <data name="&gt;&gt;APIKeyTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SaveAPIKeyButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="SaveAPIKeyButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveAPIKeyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 18</value>
+  </data>
+  <data name="SaveAPIKeyButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SaveAPIKeyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 27</value>
+  </data>
+  <data name="SaveAPIKeyButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SaveAPIKeyButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;SaveAPIKeyButton.Name" xml:space="preserve">
+    <value>SaveAPIKeyButton</value>
+  </data>
+  <data name="&gt;&gt;SaveAPIKeyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveAPIKeyButton.Parent" xml:space="preserve">
+    <value>APIKeyGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SaveAPIKeyButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SearchParamTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SearchParamTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="SearchParamTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SearchParamTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 23</value>
+  </data>
+  <data name="SearchParamTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SearchParamTextBox.Name" xml:space="preserve">
+    <value>SearchParamTextBox</value>
+  </data>
+  <data name="&gt;&gt;SearchParamTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchParamTextBox.Parent" xml:space="preserve">
+    <value>SearchParamGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SearchParamTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SaveSearchParamButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="SaveSearchParamButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveSearchParamButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 18</value>
+  </data>
+  <data name="SaveSearchParamButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SaveSearchParamButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 27</value>
+  </data>
+  <data name="SaveSearchParamButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SaveSearchParamButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;SaveSearchParamButton.Name" xml:space="preserve">
+    <value>SaveSearchParamButton</value>
+  </data>
+  <data name="&gt;&gt;SaveSearchParamButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveSearchParamButton.Parent" xml:space="preserve">
+    <value>SearchParamGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SaveSearchParamButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DaysRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DaysRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="DaysRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="DaysRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 21</value>
+  </data>
+  <data name="DaysRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DaysRadioButton.Text" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="&gt;&gt;DaysRadioButton.Name" xml:space="preserve">
+    <value>DaysRadioButton</value>
+  </data>
+  <data name="&gt;&gt;DaysRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DaysRadioButton.Parent" xml:space="preserve">
+    <value>WallpaperChangeIntervalGroupBox</value>
+  </data>
+  <data name="&gt;&gt;DaysRadioButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="HoursRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HoursRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="HoursRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="HoursRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="HoursRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="HoursRadioButton.Text" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="&gt;&gt;HoursRadioButton.Name" xml:space="preserve">
+    <value>HoursRadioButton</value>
+  </data>
+  <data name="&gt;&gt;HoursRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HoursRadioButton.Parent" xml:space="preserve">
+    <value>WallpaperChangeIntervalGroupBox</value>
+  </data>
+  <data name="&gt;&gt;HoursRadioButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MinutesRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MinutesRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 65</value>
+  </data>
+  <data name="MinutesRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="MinutesRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="MinutesRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MinutesRadioButton.Text" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="&gt;&gt;MinutesRadioButton.Name" xml:space="preserve">
+    <value>MinutesRadioButton</value>
+  </data>
+  <data name="&gt;&gt;MinutesRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MinutesRadioButton.Parent" xml:space="preserve">
+    <value>WallpaperChangeIntervalGroupBox</value>
+  </data>
+  <data name="&gt;&gt;MinutesRadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WallpaperChangeIntervalTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="WallpaperChangeIntervalTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 88</value>
+  </data>
+  <data name="WallpaperChangeIntervalTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="WallpaperChangeIntervalTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 23</value>
+  </data>
+  <data name="WallpaperChangeIntervalTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalTextBox.Name" xml:space="preserve">
+    <value>WallpaperChangeIntervalTextBox</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalTextBox.Parent" xml:space="preserve">
+    <value>WallpaperChangeIntervalGroupBox</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 86</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 27</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SaveWallpaperChangeIntervalButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;SaveWallpaperChangeIntervalButton.Name" xml:space="preserve">
+    <value>SaveWallpaperChangeIntervalButton</value>
+  </data>
+  <data name="&gt;&gt;SaveWallpaperChangeIntervalButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaveWallpaperChangeIntervalButton.Parent" xml:space="preserve">
+    <value>WallpaperChangeIntervalGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SaveWallpaperChangeIntervalButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="OverrideExistingImageFilesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="OverrideExistingImageFilesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="OverrideExistingImageFilesCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="OverrideExistingImageFilesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 21</value>
+  </data>
+  <data name="OverrideExistingImageFilesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="OverrideExistingImageFilesCheckBox.Text" xml:space="preserve">
+    <value>Override existing image files</value>
+  </data>
+  <data name="&gt;&gt;OverrideExistingImageFilesCheckBox.Name" xml:space="preserve">
+    <value>OverrideExistingImageFilesCheckBox</value>
+  </data>
+  <data name="&gt;&gt;OverrideExistingImageFilesCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OverrideExistingImageFilesCheckBox.Parent" xml:space="preserve">
+    <value>ProgramSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;OverrideExistingImageFilesCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LaunchOnSystemStartupCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LaunchOnSystemStartupCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="LaunchOnSystemStartupCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="LaunchOnSystemStartupCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 21</value>
+  </data>
+  <data name="LaunchOnSystemStartupCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LaunchOnSystemStartupCheckBox.Text" xml:space="preserve">
+    <value>Launch on system startup</value>
+  </data>
+  <data name="&gt;&gt;LaunchOnSystemStartupCheckBox.Name" xml:space="preserve">
+    <value>LaunchOnSystemStartupCheckBox</value>
+  </data>
+  <data name="&gt;&gt;LaunchOnSystemStartupCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LaunchOnSystemStartupCheckBox.Parent" xml:space="preserve">
+    <value>ProgramSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;LaunchOnSystemStartupCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UseHttpsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UseHttpsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 20</value>
+  </data>
+  <data name="UseHttpsCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="UseHttpsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="UseHttpsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="UseHttpsCheckBox.Text" xml:space="preserve">
+    <value>Use HTTPS</value>
+  </data>
+  <data name="&gt;&gt;UseHttpsCheckBox.Name" xml:space="preserve">
+    <value>UseHttpsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;UseHttpsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UseHttpsCheckBox.Parent" xml:space="preserve">
+    <value>ConnectionSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UseHttpsCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UseSystemProxyCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UseSystemProxyCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="UseSystemProxyCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="UseSystemProxyCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 21</value>
+  </data>
+  <data name="UseSystemProxyCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="UseSystemProxyCheckBox.Text" xml:space="preserve">
+    <value>Use system proxy</value>
+  </data>
+  <data name="&gt;&gt;UseSystemProxyCheckBox.Name" xml:space="preserve">
+    <value>UseSystemProxyCheckBox</value>
+  </data>
+  <data name="&gt;&gt;UseSystemProxyCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UseSystemProxyCheckBox.Parent" xml:space="preserve">
+    <value>ConnectionSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UseSystemProxyCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UseTrixiebooruMirrorCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UseTrixiebooruMirrorCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 65</value>
+  </data>
+  <data name="UseTrixiebooruMirrorCheckBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="UseTrixiebooruMirrorCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 21</value>
+  </data>
+  <data name="UseTrixiebooruMirrorCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UseTrixiebooruMirrorCheckBox.Text" xml:space="preserve">
+    <value>Use Trixiebooru mirror</value>
+  </data>
+  <data name="&gt;&gt;UseTrixiebooruMirrorCheckBox.Name" xml:space="preserve">
+    <value>UseTrixiebooruMirrorCheckBox</value>
+  </data>
+  <data name="&gt;&gt;UseTrixiebooruMirrorCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UseTrixiebooruMirrorCheckBox.Parent" xml:space="preserve">
+    <value>ConnectionSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;UseTrixiebooruMirrorCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="APIKeyGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="APIKeyGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 7</value>
+  </data>
+  <data name="APIKeyGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="APIKeyGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="APIKeyGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 49</value>
+  </data>
+  <data name="APIKeyGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="APIKeyGroupBox.Text" xml:space="preserve">
+    <value>API Key</value>
+  </data>
+  <data name="&gt;&gt;APIKeyGroupBox.Name" xml:space="preserve">
+    <value>APIKeyGroupBox</value>
+  </data>
+  <data name="&gt;&gt;APIKeyGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;APIKeyGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;APIKeyGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SearchParamGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SearchParamGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 59</value>
+  </data>
+  <data name="SearchParamGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SearchParamGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SearchParamGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 49</value>
+  </data>
+  <data name="SearchParamGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SearchParamGroupBox.Text" xml:space="preserve">
+    <value>Search Parameters</value>
+  </data>
+  <data name="&gt;&gt;SearchParamGroupBox.Name" xml:space="preserve">
+    <value>SearchParamGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SearchParamGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchParamGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchParamGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 115</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="WallpaperChangeIntervalGroupBox.Text" xml:space="preserve">
+    <value>Wallpaper Change Interval</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalGroupBox.Name" xml:space="preserve">
+    <value>WallpaperChangeIntervalGroupBox</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WallpaperChangeIntervalGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 230</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 65</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ProgramSettingsGroupBox.Text" xml:space="preserve">
+    <value>Program Settings</value>
+  </data>
+  <data name="&gt;&gt;ProgramSettingsGroupBox.Name" xml:space="preserve">
+    <value>ProgramSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ProgramSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgramSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProgramSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 299</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 88</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ConnectionSettingsGroupBox.Text" xml:space="preserve">
+    <value>Connection Settings</value>
+  </data>
+  <data name="&gt;&gt;ConnectionSettingsGroupBox.Name" xml:space="preserve">
+    <value>ConnectionSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ConnectionSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConnectionSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ConnectionSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="OKButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="OKButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 401</value>
+  </data>
+  <data name="OKButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="OKButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 27</value>
+  </data>
+  <data name="OKButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="OKButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;OKButton.Name" xml:space="preserve">
+    <value>OKButton</value>
+  </data>
+  <data name="&gt;&gt;OKButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OKButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OKButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>405, 439</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>421, 478</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Derpibooru Wallpaper Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
