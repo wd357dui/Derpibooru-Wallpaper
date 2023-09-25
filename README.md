@@ -43,8 +43,8 @@ Don't forget to add the `safe` tag if you don't want to include NSFW pictures as
 Type in your search text and click `Save` before closing the settings window.
 > [!NOTE]
 > This program changes your wallpaper, but it's not a [Wallpaper Engine](https://wikipedia.org/wiki/Wallpaper_Engine) (yet).
-> So if your search result matched a video things will **NOT** work. And animated GIFs will **NOT** show as animated wallpaper.
-> That's why I usually add `-video`, `-sound`, `-animated` in the search text to avoid those altogether.
+> So if your search result matched a video or animated GIF things will **NOT** work.
+> That's why I usually add `-video`, `-sound`, and `-animated` in the search text to avoid those altogether.
 > However, the thought crossed my mind to make this app Wallpaper-Engine-Capable. I have the skill to make it capable of displaying animated/video wallpapers (since I spent so many years learning DirectX and everything), but I just didn't have the time & will to do it
 
 ## Links
