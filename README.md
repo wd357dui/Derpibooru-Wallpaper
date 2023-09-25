@@ -1,10 +1,10 @@
 # Derpibooru Wallpaper
-A simple wallpaper changing program for Windows (Desktop)
+A simple wallpaper changer program for Windows (Desktop)
 
 ## Description
 ~~This description is partially written by ChatGPT because I don't know how to start a sentence...~~
 
-I made this program back in March 2023 because I wanted to create a super easy way to have a fresh and unique wallpaper experience. No longer will I have to spend hours searching & downloading pony wallpapers by hand, and get bored and disappointed once a downloaded collection ran out of fresh ones I haven't used before. With this program, you and I can enjoy a constant stream of beautiful pony wallpapers without ever having to lift a finger!
+I made this program back in March 2023 because I wanted to create a super easy way to have a fresh and unique wallpaper experience. No longer will I have to spend hours searching & downloading pony wallpapers by hand, and get bored and disappointed once a downloaded collection runs out of fresh ones I haven't used before. With this program, you and I can enjoy a constant stream of beautiful pony wallpapers without ever having to lift a finger!
 
 ## Features
 - Random Wallpaper Fetching: 
@@ -34,7 +34,7 @@ Once you set your API Key, the searches will apply the filter that your account 
 Login on Derpibooru to [see your API key](https://derpibooru.org/registrations/edit), copy and paste the key in the program settings and click `Save`.
 If you somehow need to manually type your API key (and/or if you need to see it), double-click on the text box to show the key as plain text.
 > [!WARNING]
-> Do not share your API key with anyone. It's just as important as your password, and they didn't offer any option to change it according to my knowledge.
+> Do not share your API key with anyone. It's just as important as your password, and Derpibooru didn't offer any option to change it according to my knowledge.
 
 - Set search parameters
 The search text works exactly the same as the one on the website. Please refer to the [Search Syntax](https://derpibooru.org/pages/search_syntax) page on Derpibooru for details.
@@ -44,7 +44,7 @@ Type in your search text and click `Save` before closing the settings window.
 > [!NOTE]
 > This program changes your wallpaper, but it's not a [Wallpaper Engine](https://wikipedia.org/wiki/Wallpaper_Engine) (yet).
 > So if your search result matched a video things will **NOT** work. And animated GIFs will **NOT** show as animated wallpaper. That's why I usually add `-video, -sound, -animated` in the search text to avoid those all together.
-> However, the thought crossed my mind to make this app Wallpaper-Engine-Capable. I have the skill to make it capable of displaying animated/video wallpapers (since I spent so many years learning DirectX and everything), I just didn't have the time & will to do it
+> However, the thought crossed my mind to make this app Wallpaper-Engine-Capable. I have the skill to make it capable of displaying animated/video wallpapers (since I spent so many years learning DirectX and everything), but I just didn't have the time & will to do it
 
 ## Links
 [Derpibooru API](https://derpibooru.org/pages/api)
