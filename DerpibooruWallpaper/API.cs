@@ -79,6 +79,7 @@ namespace DerpibooruWallpaper
                         "(property `images[" + 0 + "].representations.full` is null)",
                         doc.RootElement.ToString());
                     string filePath = DownloadFile(full);
+                    /*
                     bool ImageBiggerThan4K = image.GetProperty("width").GetInt32() > 3840 || image.GetProperty("height").GetInt32() > 2160;
                     bool Convert = ImageBiggerThan4K;
                     if (filePath.EndsWith(".png", StringComparison.InvariantCultureIgnoreCase))
@@ -106,6 +107,7 @@ namespace DerpibooruWallpaper
                             filePath = newFilePath;
                         }
                     }
+                    */
                     Wallpaper.Set(filePath);
                     Settings.LastUpdate = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
                 }

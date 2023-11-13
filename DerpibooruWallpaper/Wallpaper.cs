@@ -20,7 +20,7 @@ namespace DerpibooruWallpaper
             Stretched
         }
         */
-        public static bool Set(string ImagePath) //, Style? style = null)
+        public static void Set(string ImagePath) //, Style? style = null)
         {
             /*
             if (style is not null)
@@ -55,7 +55,11 @@ namespace DerpibooruWallpaper
                 }
             }
             */
-            return SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, ImagePath, SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE) == 1;
+            bool success = SystemParametersInfo(SPI_SETDESKWALLPAPER, 0, ImagePath, SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE) != 0;
+            if (!success)
+            {
+                Marshal.ThrowExceptionForHR(Marshal.GetHRForLastWin32Error());
+            }
         }
     }
 }
